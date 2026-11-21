@@ -1,0 +1,9 @@
+.env
+runs/*
+!runs/.gitkeep
+__pycache__/
+*.pyc
+검수결과_보관/
+.DS_Store
+.claude/settings.local.json
+review_log/

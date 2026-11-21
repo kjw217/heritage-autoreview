@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python scripts/prepare.py:*)",
+      "Bash(python scripts/validate.py:*)",
+      "Bash(python scripts/report.py:*)",
+      "Bash(python3 scripts/prepare.py:*)",
+      "Bash(python3 scripts/validate.py:*)",
+      "Bash(python3 scripts/report.py:*)",
+      "Bash(python scripts/upload.py:*)",
+      "Bash(python3 scripts/upload.py:*)",
+      "Read(./docs/**)",
+      "Read(./runs/**)",
+      "Write(./runs/**)",
+      "Bash(python scripts/usage.py:*)",
+      "Bash(python3 scripts/usage.py:*)"
+    ],
+    "ask": [
+      "Edit(./docs/review_guide.md)",
+      "Write(./docs/review_guide.md)",
+      "Edit(./docs/qa_review_guide.md)",
+      "Write(./docs/qa_review_guide.md)",
+      "Edit(./docs/gen_review_guide.md)",
+      "Write(./docs/gen_review_guide.md)"
+    ],
+    "deny": [
+      "Read(./.env)"
+    ]
+  }
+}
